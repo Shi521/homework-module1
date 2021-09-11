@@ -1,5 +1,5 @@
 header {
-    width: 100%;
+    width:100%;
     min-height:400px;
     padding-top: 3em;
 }
@@ -13,6 +13,10 @@ header {
 }
 #contact header{
     background: no-repeat lightgrey url(images/cliff_rock.jpg);
+    background-size: 1900px;
+}
+#cliffs header{
+    background: no-repeat lightgrey url(images/forest_cliff.jpg);
     background-size: 1900px;
 }
 .main-header{
@@ -252,3 +256,48 @@ input[type="submit"]{
 fieldset{
     border:3px solid #9ed034;
 }
+
+
+
+div.cliffpicture img{
+    height:250px;
+    width:450px;
+}
+
+div .westcliff{
+position: absolute;
+  bottom: 100px;
+  left: 9px;
+  background-color:darkred;
+  height:30px;
+  width: 450px;
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  padding-bottom:30px;
+}
+.southcliff{
+bottom: 20px;
+  right: 20px;
+  background-color: darkred;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.eastcliff{
+    bottom: 10px;
+      right: 30px;
+      background-color: darkred;
+      color: white;
+      padding-left: 20px;
+      padding-right: 20px;
+}
+.northcliff{
+    bottom: 20px;
+  right: 20px;
+  background-color:darkred;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
