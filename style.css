@@ -1,303 +1,317 @@
 header {
-    width:100%;
-    min-height:400px;
-    padding-top: 3em;
+  width: 100%;
+  min-height: 400px;
+  padding-top: 3em;
 }
-#home header{
-    background: no-repeat lightgrey url(images/cliff_ocean.jpg);
-    background-size: 1900px;
+#home header {
+  background: no-repeat lightgrey url(images/cliff_ocean.jpg);
+  background-size: 1900px;
 }
-#activities header{
-    background: no-repeat lightgrey url(images/runfly.jpg);
-    background-size: 1900px;
+#activities header {
+  background: no-repeat lightgrey url(images/runfly.jpg);
+  background-size: 1900px;
 }
-#contact header{
-    background: no-repeat lightgrey url(images/cliff_rock.jpg);
-    background-size: 1900px;
+#contact header {
+  background: no-repeat lightgrey url(images/cliff_rock.jpg);
+  background-size: 1900px;
 }
-#cliffs header{
-    background: no-repeat lightgrey url(images/forest_cliff.jpg);
-    background-size: 1900px;
+#cliffs header {
+  background: no-repeat lightgrey url(images/forest_cliff.jpg);
+  background-size: 1900px;
 }
-.main-header{
-    background-color: rgb(255,255,255,0.8);
-    width:750px;
-    margin:2em auto 0 auto;
-    min-height: 100px;
-    height:100px;
+.main-header {
+  background-color: rgb(255, 255, 255, 0.8);
+  width: 750px;
+  margin: 2em auto 0 auto;
+  min-height: 100px;
+  height: 100px;
 }
-.main-header .logo img{
-    width: 100px;
-    height:100px;
-    margin: 0 2em 0 0;
-    float:left;
+.main-header .logo img {
+  width: 100px;
+  height: 100px;
+  margin: 0 2em 0 0;
+  float: left;
 }
 /*Navigation*/
-.main-menu{
-    margin-left:227px;
-    font-weight:400;
+.main-menu {
+  margin-left: 227px;
+  font-weight: 400;
 }
-.main-menu ul li{
-    list-style-type:none;
-    display: inline-block;
-    padding-left: 25px;
-    padding-right: 25px;
-    border-left: 1px solid rgba(202,204,202,0.6);
-    line-height: 100px;
-    text-transform:uppercase;
-    font-size: 16px;
+.main-menu ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding-left: 25px;
+  padding-right: 25px;
+  border-left: 1px solid rgba(202, 204, 202, 0.6);
+  line-height: 100px;
+  text-transform: uppercase;
+  font-size: 16px;
 }
-.main-menu ul li a{
-    text-decoration:none;
-    color:#888;
+.main-menu ul li a {
+  text-decoration: none;
+  color: #888;
 }
-.main-menu ul li a:hover{
-    color:#9ed034
-} 
-.main-menu ul li.active{
-    background:#9ed034;
-    border:none;
+.main-menu ul li a:hover {
+  color: #9ed034;
 }
-.main-menu ul li.active a{
-    color:#fff;
+.main-menu ul li.active {
+  background: #9ed034;
+  border: none;
+}
+.main-menu ul li.active a {
+  color: #fff;
 }
 /*Main*/
-main h1{
-color:#93e034;
-font-family: Arial, Helvetica, sans-serif;
-
+main h1 {
+  color: #93e034;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 100px;
 }
 main h2 {
-font-family:Arial, Helvetica, sans-serif;
-font-weight:bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+main {
+  padding-bottom: 300px;
 }
 
 /*Partners*/
-section{
-width:100%;
-background-color:#4288c3;
+section {
+  width: 100%;
+  background-color: #4288c3;
 }
-section #partners{
-width:1200px;
-padding: 2em 0 2em 0;
-margin:0 auto;
-text-align: center;
+section #partners {
+  width: 1200px;
+  padding: 2em 0 2em 0;
+  margin: 0 auto;
+  text-align: center;
 }
-section #partners .partner{
-display: inline-block;
-margin: 0 0.75em;
-padding:1.3em 1.5em;
-background-color: #fff;
-border-radius: 50%;
+section #partners .partner {
+  display: inline-block;
+  margin: 0 0.75em;
+  padding: 1.3em 1.5em;
+  background-color: #fff;
+  border-radius: 50%;
 }
-section #partners .partner img{
-width:90px;
-height:90px;
+section #partners .partner img {
+  width: 90px;
+  height: 90px;
 }
 
 /*Footer*/
-footer{
-width:100;
-height: 155px;
-padding-bottom: 1em;
-background-color: #ecfab8;
+footer {
+  width: 100;
+  height: 155px;
+  padding-bottom: 1em;
+  background-color: #ecfab8;
 }
 footer #nondisclaimer .copy {
-padding: 3.5em 3.5em 3.5em 13em;
-float: left;
-font-size:0.9em;
+  padding: 3.5em 3.5em 3.5em 13em;
+  float: left;
+  font-size: 0.9em;
 }
 footer #nondisclaimer .social {
-padding: 2.5em;
-float: right;
-margin-right:9.25em;
+  padding: 2.5em;
+  float: right;
+  margin-right: 9.25em;
 }
-footer #disclaimer{
-clear:both;
+footer #disclaimer {
+  clear: both;
 }
-footer #disclaimer p{
-font-size:0.85em;
-text-align: center;
+footer #disclaimer p {
+  font-size: 0.85em;
+  text-align: center;
 }
-footer #nondisclaimer .social .fa{
-padding:15px;
-font-size:15px;
-width:15px;
-text-align:center;
-text-decoration:none;
-margin: 0.4px;
-border-radius:50%;
+footer #nondisclaimer .social .fa {
+  padding: 15px;
+  font-size: 15px;
+  width: 15px;
+  text-align: center;
+  text-decoration: none;
+  margin: 0.4px;
+  border-radius: 50%;
 }
-footer #nondisclaimer .social .fa:hover{
-opacity:0.7;
+footer #nondisclaimer .social .fa:hover {
+  opacity: 0.7;
 }
-footer #nondisclaimer .social .fa-facebook{
-background:#3B5998;
-color:white;
+footer #nondisclaimer .social .fa-facebook {
+  background: #3b5998;
+  color: white;
 }
-footer #nondisclaimer .social .fa-twitter{
-background: #55ACEE;
-color:white;
+footer #nondisclaimer .social .fa-twitter {
+  background: #55acee;
+  color: white;
 }
-footer #nondisclaimer .social .fa-instagram{
-background:#125688;
-color:white;
+footer #nondisclaimer .social .fa-instagram {
+  background: #125688;
+  color: white;
 }
 /*actitivies*/
 
-
-table{
-    width:1000px;
-    margin:4em auto 0 auto;
-    padding-bottom: 50px;
+#activities table {
+  width: 1000px;
+  margin: 4em auto 0 auto;
+  padding-bottom: 50px;
 }
-caption{
-    background: #852B1B;
-    height:40px;
-    color:#fff;
-    font-size:1.3em;
-    font-weight:bold;
-    padding-top:1em;
+#activities caption {
+  background: #852b1b;
+  height: 40px;
+  color: #fff;
+  font-size: 1.3em;
+  font-weight: bold;
+  padding-top: 1em;
 }
-thead{
-    background:#bde1ff;
+#activities thead {
+  background: #bde1ff;
 }
-tbody{
-    background:#eeffe6;
-    text-align:center;
+#activities tbody {
+  background: #eeffe6;
+  text-align: center;
 }
-th,td{
-    width:225px;
-    height:75px;
-    vertical-align: middle;
-    border:solid 1px #852B1B
+#activities th,
+td {
+  width: 225px;
+  height: 75px;
+  vertical-align: middle;
+  border: solid 1px #852b1b;
 }
-th:first-child{
-    width:125px;
-    height:50px;
-    background:#4977D1;
-    color:#fff;
+#activities th:first-child {
+  width: 125px;
+  height: 50px;
+  background: #4977d1;
+  color: #fff;
 }
-td:first-child{
-    font-weight:bold;
-    background:#bde1ff;
+#activities td:first-child {
+  font-weight: bold;
+  background: #bde1ff;
 }
 /*contact*/
 
-.contactinfo{
-    padding-bottom: 20px;
+.contactinfo {
+  padding-bottom: 20px;
 }
 
-
-.textbox{
-    padding-left: 10px;
-    padding:3px;
+.textbox {
+  padding-left: 10px;
+  padding: 3px;
 }
-legend{
-    color:#4977D1;
-    font-weight: bolder;
-    text-transform: uppercase;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 20px;
-}
-label{
-    display: block;
-    margin:15px 0 0 0 0;
-    padding-top: 10px;
-    padding-left: 5px;
-    padding-bottom: 5px;
-    font-weight:bold;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-.radios label{
-    display: unset;
-    color:#000
-}
-.radios{
-    padding-top: 10px;
-    color:dimgrey;
-}
-.selectmenu{
-    padding-top: 10px;
-}
-.selectmenu label{
-    display: unset;
-}
-select{
-    width:180px;
-    text-align: center;
-}
-input{
-    width:500px;
-    padding-bottom: 5px;
-}
-textarea{
-    width:500px;
-    height:200px;    
-}
-
-input[type="radio"]{
-    width:25px;
-    padding-bottom: 5px;
-    padding-top: 10px;
-
-}
-
-input[type="submit"]{
-    display:block;
-    margin:20px 10px 10px 400px;
-    width:100px;
-    height:30px;
-    background-color:#4977D1;
-    border:none;
-    color:#fff;
-    text-align: center;
-}
-fieldset{
-    border:3px solid #9ed034;
-}
-
-
-
-div.cliffpicture img{
-    height:250px;
-    width:450px;
-}
-
-div .westcliff{
-position: absolute;
-  bottom: 100px;
-  left: 9px;
-  background-color:darkred;
-  height:30px;
-  width: 450px;
-  color: white;
-  text-align: center;
+legend {
+  color: #4977d1;
+  font-weight: bolder;
+  text-transform: uppercase;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-size: 20px;
-  padding-bottom:30px;
 }
-.southcliff{
-bottom: 20px;
-  right: 20px;
+label {
+  display: block;
+  margin: 15px 0 0 0 0;
+  padding-top: 10px;
+  padding-left: 5px;
+  padding-bottom: 5px;
+  font-weight: bold;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.radios label {
+  display: unset;
+  color: #000;
+}
+.radios {
+  padding-top: 10px;
+  color: dimgrey;
+}
+.selectmenu {
+  padding-top: 10px;
+}
+.selectmenu label {
+  display: unset;
+}
+select {
+  width: 180px;
+  text-align: center;
+}
+input {
+  width: 500px;
+  padding-bottom: 5px;
+}
+textarea {
+  width: 500px;
+  height: 200px;
+}
+
+input[type="radio"] {
+  width: 25px;
+  padding-bottom: 5px;
+  padding-top: 10px;
+}
+
+input[type="submit"] {
+  display: block;
+  margin: 20px 10px 10px 400px;
+  width: 100px;
+  height: 30px;
+  background-color: #4977d1;
+  border: none;
+  color: #fff;
+  text-align: center;
+}
+fieldset {
+  border: 3px solid #9ed034;
+}
+
+/*cliffs*/
+
+#cliffs main .big_container{
+    width: 90%;
+    margin: 0 auto;
+    display: block;
+}
+
+#cliffs .img_holder {
+  width: 45%;
+  display: inline-block;
+  /*margin: 2.5em 1.2em 0 2.5em;*/
+  margin-left: 50px;
+}
+#cliffs .img_holder img {
+  height: auto;
+  width:500px;
+}
+#cliffs .img_holder h4 {
+  margin-bottom: 0px;
+  height: 2em;
+  text-align: center;
   background-color: darkred;
   color: white;
-  padding-left: 20px;
-  padding-right: 20px;
-}
-.eastcliff{
-    bottom: 10px;
-      right: 30px;
-      background-color: darkred;
-      color: white;
-      padding-left: 20px;
-      padding-right: 20px;
-}
-.northcliff{
-    bottom: 20px;
-  right: 20px;
-  background-color:darkred;
-  color: white;
-  padding-left: 20px;
-  padding-right: 20px;
+  font-size: 16pt;
+  padding: 5px;
+  box-sizing: border-box;
+  width:500px;
 }
 
+/*
+#cliff{
+    width: 1000px;
+    padding-bottom: 5px;
+    list-style: none;
+    padding-left: 450px;
+    border-collapse: separate;
+    -webkit-border-horizontal-spacing: 20px;
+    border-style: none;
+  }
+
+  #cliff img{
+    width: 500px;
+    height:250px;
+    padding-bottom: 30px;
+    padding-left:30px;
+    padding-right:30px;
+  }
+  #cliff th{
+    font-size:20px;
+    color:#fff;
+    background-color: darkred;
+    height: 40px;
+    padding-left:30px;
+    padding-right:30px;
+  }
+  */
