@@ -66,14 +66,13 @@ main h1 {
   color: #93e034;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 2.5em;
-
 }
 main h2 {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
 }
 main {
-  padding:3em 6em 3em 5.5em;
+  padding: 3em 6em 3em 5.5em;
   margin: 2em 0;
 }
 
@@ -262,71 +261,48 @@ fieldset {
 
 /*cliffs*/
 
-#cliffs main .big_container{
+#cliffs main .big_container {
   width: 90%;
   margin: 0 auto;
   display: block;
 }
 
 #cliffs main .big_container .img_holder {
-width: 45%;
-display: inline-block;
-margin: 2.5em 1.2em 0 2.5em;
+  width: 45%;
+  display: inline-block;
+  margin: 2.5em 1.2em 0 2.5em;
 }
-
 
 #cliffs .img_holder img {
-height: auto;
-width: 100%;
+  height: auto;
+  width: 100%;
 }
 #cliffs .img_holder h4 {
-margin-bottom: 0px;
-height: 2em;
-text-align: center;
-background-color: darkred;
-color: white;
-font-size: 16pt;
-padding: 5px;
-box-sizing: border-box;
-width:100%;
+  margin-bottom: 0px;
+  height: 2em;
+  text-align: center;
+  background-color: darkred;
+  color: white;
+  font-size: 16pt;
+  padding: 5px;
+  box-sizing: border-box;
+  width: 100%;
 }
 
-/*
-#cliff{
-    width: 1000px;
-    padding-bottom: 5px;
-    list-style: none;
-    padding-left: 450px;
-    border-collapse: separate;
-    -webkit-border-horizontal-spacing: 20px;
-    border-style: none;
-  }
 
-  #cliff img{
-    width: 500px;
-    height:250px;
-    padding-bottom: 30px;
-    padding-left:30px;
-    padding-right:30px;
-  }
-  #cliff th{
-    font-size:20px;
-    color:#fff;
-    background-color: darkred;
-    height: 40px;
-    padding-left:30px;
-    padding-right:30px;
-  }
-  */
-  #home #timeofday{
-    height: 2.8em;
-    background:linear-gradient(0deg,rgb(251,215,139,1) 0%, rgba(118,213,245,1) 100%);
-    text-align: center;
-    padding-top:1.2em;
-    color:#3a3a3a,#125688;
-    font-family:Arial, Helvetica, sans-serif;
-  }
-  #home#clock(
-    font-weight:400;
-    color:#125688;
-  )
+#home #timeofday {
+  height: 2.8em;
+  background: linear-gradient(
+    0deg,
+    rgb(251, 215, 139, 1) 0%,
+    rgba(118, 213, 245, 1) 100%
+  );
+  text-align: center;
+  padding-top: 1.2em;
+  color: #3a3a3a;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#home #clock {
+  font-weight: 400;
+  color: #125688;
+}
