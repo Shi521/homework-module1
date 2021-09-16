@@ -65,14 +65,16 @@ header {
 main h1 {
   color: #93e034;
   font-family: Arial, Helvetica, sans-serif;
-  padding-top: 100px;
+  font-size: 2.5em;
+
 }
 main h2 {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
 }
 main {
-  padding-bottom: 300px;
+  padding:3em 6em 3em 5.5em;
+  margin: 2em 0;
 }
 
 /*Partners*/
@@ -261,31 +263,32 @@ fieldset {
 /*cliffs*/
 
 #cliffs main .big_container{
-    width: 90%;
-    margin: 0 auto;
-    display: inline-block;
+  width: 90%;
+  margin: 0 auto;
+  display: block;
 }
 
-#cliffs .img_holder {
-  width: 45%;
-  display: inline-block;
-  /*margin: 2.5em 1.2em 0 2.5em;*/
-  margin-left: 10px;
+#cliffs main .big_container .img_holder {
+width: 45%;
+display: inline-block;
+margin: 2.5em 1.2em 0 2.5em;
 }
+
+
 #cliffs .img_holder img {
-  height: auto;
-  width:500px;
+height: auto;
+width: 100%;
 }
 #cliffs .img_holder h4 {
-  margin-bottom: 0px;
-  height: 2em;
-  text-align: center;
-  background-color: darkred;
-  color: white;
-  font-size: 16pt;
-  padding: 5px;
-  box-sizing: border-box;
-  width:500px;
+margin-bottom: 0px;
+height: 2em;
+text-align: center;
+background-color: darkred;
+color: white;
+font-size: 16pt;
+padding: 5px;
+box-sizing: border-box;
+width:100%;
 }
 
 /*
@@ -315,6 +318,15 @@ fieldset {
     padding-right:30px;
   }
   */
-  script{
-    
+  #home #timeofday{
+    height: 2.8em;
+    background:linear-gradient(0deg,rgb(251,215,139,1) 0%, rgba(118,213,245,1) 100%);
+    text-align: center;
+    padding-top:1.2em;
+    color:#3a3a3a,#125688;
+    font-family:Arial, Helvetica, sans-serif;
   }
+  #home#clock(
+    font-weight:400;
+    color:#125688;
+  )
