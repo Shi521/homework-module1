@@ -263,14 +263,14 @@ fieldset {
 #cliffs main .big_container{
     width: 90%;
     margin: 0 auto;
-    display: block;
+    display: inline-block;
 }
 
 #cliffs .img_holder {
   width: 45%;
   display: inline-block;
   /*margin: 2.5em 1.2em 0 2.5em;*/
-  margin-left: 50px;
+  margin-left: 10px;
 }
 #cliffs .img_holder img {
   height: auto;
@@ -315,3 +315,6 @@ fieldset {
     padding-right:30px;
   }
   */
+  script{
+    
+  }
