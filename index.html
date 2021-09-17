@@ -57,45 +57,15 @@
 
     <section>
       <ul id="partners">
-        <li class="partner">
-          <img
-            src="images/partners/partner-bustour.png"
-            alt="Partner Bus Tours"
-          />
-        </li>
-        <li class="partner">
-          <img
-            src="images/partners/partner-cabinrental.png"
-            alt="Partner Cabin Rental"
-          />
-        </li>
-        <li class="partner">
-          <img
-            src="images/partners/partner-campingadv.png"
-            alt="Partner Camping Adventure"
-          />
-        </li>
-        <li class="partner">
-          <img
-            src="images/partners/partner-collegetours.png"
-            alt="Partner College Tours"
-          />
-        </li>
-        <li class="partner">
-          <img
-            src="images/partners/partner-rentalbike.png"
-            alt="Partner Bike Rentals"
-          />
-        </li>
-        <li class="partner">
-          <img
-            src="images/partners/partner-tourgroup.png"
-            alt="Partner Tour Group"
-          />
-        </li>
+        <!--<li class="partner"><img src="images/partners/partner1.png" alt="Partner Bus Tours"></li>
+        <li class="partner"><img src="images/partners/partner2.png" alt="Partner Cabin Rental"></li>
+        <li class="partner"><img src="images/partners/partner3.png" alt="Partner Camping Adventure"></li>
+        <li class="partner"><img src="images/partners/partner4.png" alt="Partner College Tours"></li>
+        <li class="partner"><img src="images/partners/partner5.png" alt="Partner Bike Rentals"></li>
+        <li class="partner"><img src="images/partners/partner6.png" alt="Partner Tour Group"></li>-->
       </ul>
     </section>
-
+    
     <footer>
       <div id="nondisclaimer">
         <div class="copy">&copy;Copyright 2020::GreatCliffs.com</div>
@@ -116,7 +86,7 @@
 
     <!--JavaScript Codes-->
 
-    <script>
+    <script id ="timeofday">
       function currentTime() {
         var d = new Date();
         var hr = d.getHours();
@@ -170,6 +140,25 @@
         setInterval(currentTime, 1000);
       }
       currentTime();
-    </script>
-  </body>
+</script>
+
+<script id="partners" class="partner">
+      var photos = []; 
+      var fileNames = []; 
+      var imageList = []; 
+      var image; 
+      var openList = "<li class='partner'>"; 
+      var closeList = "</li>"
+
+      for (var i=0; i<6; i++) {
+        fileNames.push("partner"+(i+1));
+        photos.push("<img src='images/partners/"+ fileNames[i]+".png'>");
+        image = openList + photos[i] + closeList;
+        imageList.push(image);
+      }
+        document.getElementById("partners").innerHTML = imageList;
+</script>
+  
+
+</body>
 </html>
