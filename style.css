@@ -250,7 +250,7 @@ input[type="submit"] {
   margin: 20px 10px 10px 400px;
   width: 100px;
   height: 30px;
-  background-color: #4977d1;
+  /*background-color: #4977d1;*/
   border: none;
   color: #fff;
   text-align: center;
@@ -259,6 +259,18 @@ fieldset {
   border: 3px solid #9ed034;
 }
 
+.randomcode p {
+  background-color: lightgray;
+  width:100px;
+  height: 30px;
+  text-align: center;
+display:inline-block;
+
+}
+.randomcode input{
+  width:150px;
+  margin-left: 250px;
+}
 /*cliffs*/
 
 #cliffs main .big_container {
