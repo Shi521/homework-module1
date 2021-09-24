@@ -3,8 +3,8 @@
 //Function to generate combination of characters
 function generateCode() {
     //Create variables to store generate codes and the type of characters we want to show as codes
-    var code = ' '; //initialize to null value
-    var str = 'ABCDEFGHJKLMNOPQRSTUVWXYZabcdefghijklmnopqustuvwxyz0123456789@#$';
+    //var code = ' '; //initialize to null value
+    //var str = 'ABCDEFGHJKLMNOPQRSTUVWXYZabcdefghijklmnopqustuvwxyz0123456789@#$';
 
 
 //Generate character multiple times using a loop
