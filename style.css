@@ -186,6 +186,12 @@ td {
   font-weight: bold;
   background: #bde1ff;
 }
+.highlight{ 
+  color:white;
+  background:#9ed034;
+  font-weight: bold;
+}
+
 /*contact*/
 
 .contactinfo {
