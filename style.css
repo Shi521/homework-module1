@@ -5,26 +5,25 @@ header {
 }
 #home header {
   background: no-repeat lightgrey url(images/cliff_ocean.jpg);
-  background-size: 1900px;
+  background-size: cover;
 }
 #activities header {
   background: no-repeat lightgrey url(images/runfly.jpg);
-  background-size: 1900px;
+  background-size: cover;
 }
 #contact header {
   background: no-repeat lightgrey url(images/cliff_rock.jpg);
-  background-size: 1900px;
+  background-size: cover;
 }
 #cliffs header {
   background: no-repeat lightgrey url(images/forest_cliff.jpg);
-  background-size: 1900px;
+  background-size: cover;
 }
 .main-header {
   background-color: rgb(255, 255, 255, 0.8);
-  width: 750px;
+  width: 75%;
   margin: 2em auto 0 auto;
   min-height: 100px;
-  height: 100px;
 }
 .main-header .logo img {
   width: 100px;
@@ -34,8 +33,9 @@ header {
 }
 /*Navigation*/
 .main-menu {
-  margin-left: 227px;
   font-weight: 400;
+  margin: 0;
+  padding: 0 20px;
 }
 .main-menu ul li {
   list-style-type: none;
@@ -45,11 +45,11 @@ header {
   border-left: 1px solid rgba(202, 204, 202, 0.6);
   line-height: 100px;
   text-transform: uppercase;
-  font-size: 16px;
+  font-size: 14px;
 }
 .main-menu ul li a {
   text-decoration: none;
-  color: #888;
+  color: rgb(104, 104, 104);
 }
 .main-menu ul li a:hover {
   color: #9ed034;
@@ -59,21 +59,28 @@ header {
   border: none;
 }
 .main-menu ul li.active a {
-  color: #fff;
+  color: rgb(187, 187, 187);
 }
+
+
 /*Main*/
-main h1 {
-  color: #93e034;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 2.5em;
-}
-main h2 {
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: bold;
-}
 main {
   padding: 3em 6em 3em 5.5em;
   margin: 2em 0;
+  font-family:Arial, Helvetica, sans-serif;
+}
+main h1 {
+  font-size: 2.5em;
+  padding-bottom: 0.5em;
+  color: #9ed034;
+}
+main h2 {
+  font-size: 1.7em;
+}
+#home .main-col-content {
+  border: 1px solid #C0C0C0; /* Homework Week 6 Day 2 */
+  padding: 25px;
+  min-height: 400px; /* Homework Week 6 Day 2 */
 }
 
 /*Partners*/
@@ -82,7 +89,7 @@ section{
   background-color: #4288c3;
 }
 section #partners {
-  width: 1200px;
+  width: 100%;
   padding: 2em 0 2em 0;
   margin: 0 auto;
   text-align: center;
@@ -101,7 +108,7 @@ section #partners .partner img {
  
 /*Footer*/
 footer {
-  width: 100;
+  width: 100%;
   height: 155px;
   padding-bottom: 1em;
   background-color: #ecfab8;
@@ -277,6 +284,9 @@ display:inline-block;
   width:150px;
   margin-left: 250px;
 }
+.btn{
+margin-left: 200px;
+}
 /*cliffs*/
 
 #cliffs main .big_container {
@@ -348,4 +358,44 @@ display:inline-block;
 }
 #activities main #displaySelected #sendinfo input [type="emial"]{
   width:200px;
+}
+/* Media Queries */
+@media (max-width: 768px) {
+  footer #nondisclaimer .copy {
+      padding: 3.5em 0em 3.5em 0em;
+      text-align: center;
+      float: none;
+      font-size: 0.9em;
+    }
+    footer #nondisclaimer .social {
+      padding: 2.5em 0;
+      margin: 0;
+      text-align: center;
+      float: none;
+    }
+    .navbar-main {
+      width: 85%;
+    }    
+}
+
+@media (max-width: 992px) {
+  .logo img {
+      position: relative;
+      bottom: 8px;
+  }
+  .main-menu {
+      background-color:rgb(255, 255, 255);
+    }
+    .main-menu ul li {
+      border-bottom: 1px solid rgb(202, 204, 202);
+    }
+    main {
+      padding: 3em 1em 3em 1em;
+      margin: 0;
+    }
+    #home .main-col-content {
+      padding: 25px;
+      min-height: 450px;
+      margin-top: 1em;
+    }
 }

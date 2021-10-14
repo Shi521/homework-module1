@@ -1,36 +1,81 @@
 <!DOCTYPE html>
-<html></html>
-<head>
-<title>Great Cliff's Logo</title>
-<meta charset="utf-8">    
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="style.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-</head>
+<html>
+  <head>
+    <title>Great Cliff's Logo</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width = device-width, initial-scale = 1, shrink-to-fit = no"
+    />
+    <!--Font Awesome-->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
 
 <body id="activities">
-<div class="main-header"> </div>
 
 <header>
-    <div class="main-header"> 
-        <div class="logo">
+    <div class="container-fluid">
+      
+        <div class="main-header">
+          <!-- <div class="logo">
             <img src="images/logo.png" alt="Great Cliffs Logo" width="125">
-    </div>
+        </div> -->
 
-<!--Main Navigation-->
-<nav>
-    <div class="main-menu">
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="cliffs.html">Cliffs</a></li>
-            <li class="active"><a href="activities.html">Activities</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-    </div>        
-</nav>  
+          <nav
+            class="navbar navbar-light navbar-expand-lg"
+          >
+            <a class="navbar-brand" href="#">
+              <div class="logo">
+                <img
+                  src="images/logo.png"
+                  alt="Great Cliffs Logo"
+                  width="125"
+                />
+              </div>
+            </a>
+            <button
+              class="navbar-toggler navbar-toggler-right"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarNavDropdown"
+              aria-controls="navbarNavDropdown"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
 
-</header>
-
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <div class="main-menu">  
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="cliffs.html">Cliffs</a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link" href="activities.html">Activities</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+              </ul>
+            </div>  
+            </div>
+          </nav>
+        </div>  
+      </div>
+    </header>
 <main>
 <h1>Activities</h1>
 <p style="font-family: Arial, Helvetica, sans-serif;">There are many planned activities at all the cliff sites. Some are scheduled daily, weekly, monthly and yearly. These activities are not however run by the state park and recreational department. They are operated and manage by private vendors but are partners with the state department. Therefore, for schedule inquiries or information, please contact them directly. For a list of activities, please refer to the table below:</p>
@@ -98,34 +143,90 @@
 </main>
 
 <section>
-    <ul id="partners">
-        <!--<li class="partner"><img src="images/partners/partner1.png" alt="Partner Bus Tours"></li>
-        <li class="partner"><img src="images/partners/partner2.png" alt="Partner Cabin Rental"></li>
-        <li class="partner"><img src="images/partners/partner3.png" alt="Partner Camping Adventure"></li>
-        <li class="partner"><img src="images/partners/partner4.png" alt="Partner College Tours"></li>
-        <li class="partner"><img src="images/partners/partner5.png" alt="Partner Bike Rentals"></li>
-        <li class="partner"><img src="images/partners/partner6.png" alt="Partner Tour Group"></li>-->
-    </ul>
-</section>
-
-
-<footer>
-    <div id="nondisclaimer">
-        <div class="copy">&copy;Copyright 2020::GreatCliffs.com</div>
-        <div class="social">
-            <a href="#" class="fa fa-facebook"></a>
-            <a href="#" class="fa fa-twitter"></a>
-            <a href="#" class="fa fa-instagram"></a>
+    <div id="partners">
+      <ul class="row">
+        <div class="col-sm-6 col-md-4 col-lg-2 my-3 my-lg-0">  
+        <li class="partner">
+          <img
+            src="images/partners/partner1.png"
+            alt="Partner Bus Tours"
+          />  
+        </li>
         </div>
+        <div class="col-sm-6 col-md-4 col-lg-2 my-3 my-lg-0">
+        <li class="partner">
+          <img
+            src="images/partners/partner2.png"
+            alt="Partner Cabin Rental"
+          />
+        </li>
+      </div>
+      <div class="col-sm-6 col-md-4 col-lg-2 my-3 my-lg-0">
+        <li class="partner">
+          <img
+            src="images/partners/partner3.png"
+            alt="Partner Camping Adventure"
+          />
+        </li>
+      </div>
+      <div class="col-sm-6 col-md-4 col-lg-2 my-3 my-lg-0">  
+        <li class="partner">
+          <img
+            src="images/partners/partner4.png"
+            alt="Partner College Tours"
+          />    
+        </li>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-2 my-3 my-lg-0">
+        <li class="partner">
+          <img
+            src="images/partners/partner5.png"
+            alt="Partner Bike Rentals"
+          />
+        </li>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-2 my-3 my-lg-0">
+        <li class="partner">
+          <img
+            src="images/partners/partner6.png"
+            alt="Partner Tour Group"
+          />
+        </li>
+      </div> 
+      </ul>
     </div>
-    <div id="disclaimer">
-    <p>This website is designed and created solely for educational purposes only at Westcliff University. All contents are not intended for any commercial gain or use.</p>
-    </div>
-</footer>
- 
-<script src="js/site_scripts.js"></script>
-<script src="js/activity.js"></script>
+  </section>
 
+  <footer>
+    <!-- Nondisclaimer -->
+    <div id="nondisclaimer">
+      <div class="copy">&copy; Copyright 2021 :: GreatCliffs.com</div>
+      <div class="social">
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-instagram"></a>
+        <a href="#" class="fa fa-twitter"></a>
+      </div>
+    </div>
+    <!-- End Nondisclaimer -->
+
+    <!-- Disclaimer -->
+    <div id="disclaimer">
+      <p>
+        This website is designed and created solely for educational purposes
+        only at Westcliff University. All contents are not intended for any
+        commercial gain or use.
+      </p>
+    </div>
+    <!-- End Disclaimer -->
+  </footer>
+</div>
+
+<!-- Bootstrap jQuery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<!-- Bootstrap Popper -->
+
+<!-- Bootstrap JS -->
 </body>
 </html>
-
