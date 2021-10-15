@@ -387,9 +387,6 @@ margin-left: 200px;
       position: relative;
       bottom: 8px;
   }
-  .main-menu {
-      background-color:rgb(255, 255, 255);
-    }
     .main-menu ul li {
       border-bottom: 1px solid rgb(202, 204, 202);
     }
