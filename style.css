@@ -1,23 +1,23 @@
 header {
   width: 100%;
-  min-height: 400px;
-  padding-top: 3em;
+  min-height: 275px;
+
 }
-#home header {
-  background: no-repeat lightgrey url(images/cliff_ocean.jpg);
-  background-size: cover;
+#home {
+  background: no-repeat url(images/cliff_ocean.jpg);
+  background-size: 100% 400px;
 }
-#activities header {
-  background: no-repeat lightgrey url(images/runfly.jpg);
-  background-size: cover;
+#activities {
+  background: no-repeat url(images/runfly.jpg);
+  background-size: 100% 400px;
 }
-#contact header {
-  background: no-repeat lightgrey url(images/cliff_rock.jpg);
-  background-size: cover;
+#contact{
+  background: no-repeat url(images/cliff_rock.jpg);
+  background-size: 100% 400px;
 }
-#cliffs header {
-  background: no-repeat lightgrey url(images/forest_cliff.jpg);
-  background-size: cover;
+#cliffs {
+  background: no-repeat url(images/forest_cliff.jpg);
+  background-size: 100% 400px;
 }
 .main-header {
   background-color: rgba(38, 41, 61, 0.7);
