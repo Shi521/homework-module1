@@ -11,7 +11,7 @@ for (var i = 0; i < 6; i++) {
   image = openList + photos[i] + closeList;
   imageList.push(image);
 }
-document.getElementById("partners").innerHTML = imageList;
+// document.getElementById("partners").innerHTML = imageList.join(" ");
 
 /*----Random Codes----*/
 var code = " ";

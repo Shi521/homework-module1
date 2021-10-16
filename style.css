@@ -3,21 +3,29 @@ header {
   min-height: 275px;
 
 }
-#home {
+/* #home {
   background: no-repeat url(images/cliff_ocean.jpg);
-  background-size: 100% 400px;
+  background-size: 100% auto;
+
+} */
+#nav123{
+  position:fixed;  
 }
-#activities {
-  background: no-repeat url(images/runfly.jpg);
-  background-size: 100% 400px;
+#home> img {
+  width:100%;
+  height: auto;
 }
-#contact{
-  background: no-repeat url(images/cliff_rock.jpg);
-  background-size: 100% 400px;
+#activities > img {
+  width:100%;
+  height: auto;
+} 
+#contact > img {
+  width:100%;
+  height: auto;
 }
-#cliffs {
-  background: no-repeat url(images/forest_cliff.jpg);
-  background-size: 100% 400px;
+#cliffs > img {
+  width:100%;
+  height: auto;
 }
 .main-header {
   background-color: rgba(38, 41, 61, 0.7);
@@ -200,6 +208,9 @@ td {
   background:#9ed034;
   font-weight: bold;
 }
+#result p{
+  padding-left: 10px;
+}
 
 /*contact*/
 
@@ -248,11 +259,11 @@ select {
   text-align: center;
 }
 input {
-  width: 500px;
+  width: 100%;
   padding-bottom: 5px;
 }
 textarea {
-  width: 500px;
+  width: 100%;
   height: 200px;
 }
 
@@ -288,8 +299,13 @@ display:inline-block;
   width:150px;
   margin-left: 250px;
 }
-.btn{
-margin-left: 200px;
+.send{
+  margin:20px;
+  float: right;
+}
+.fr{
+  float:right;
+  
 }
 /*cliffs*/
 
